@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+es/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ES training outputs
+es_runs/
+finetuned_*/
+*.pt
+*.bin
+
+# TensorBoard
+events.out.tfevents.*
+
+# HuggingFace cache
+huggingface_cache/
+.hf_cache/
+
+# Logs
+*.log
+
+# Environment
+.env
